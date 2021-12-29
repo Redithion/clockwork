@@ -324,9 +324,7 @@ You can specify the day of week to run:
 ```ruby
 every(1.week, 'myjob', :at => 'Monday 16:20')
 # This runs every Monday at 16:20
-```
 
-```ruby
 every(1.hour, 'myjob', :at => 'Monday **:**')
 # This runs every hour only on Mondays
 ```
