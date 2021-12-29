@@ -16,7 +16,7 @@ module Clockwork
         if wday = WDAYS[$1]
           new(NOT_SPECIFIED, NOT_SPECIFIED, wday)
         else
-         raise FailedToParse, at
+          raise FailedToParse, at
         end
       when /\A([[:alpha:]]+)\s(.*)\z/
         if wday = WDAYS[$1]
